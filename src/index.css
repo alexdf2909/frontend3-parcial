@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: #7994ef;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,11 +28,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: rgb(233, 233, 232);
 }
 
 button {
@@ -42,7 +45,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ea7f28;
+  width: 100%;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -66,3 +70,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+label, input, button{
+  display: block;
+  margin-bottom: 10px;
+}
+label{
+  font-weight: bold;
+}
+input{
+  background: white;
+  padding: 5px;
+  width: 95%;
+  color: #1a1a1a;
+}
+Form, .tarjeta{
+  background: whitesmoke;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+
+}
+
